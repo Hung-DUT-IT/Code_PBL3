@@ -54,7 +54,7 @@
     <Compile Include="DAO\DataProvider.cs" />
     <Compile Include="DAO\FoodDAO.cs" />
     <Compile Include="DAO\MenuBillDAO.cs" />
-    <Compile Include="DAO\MenuDAO.cs" />
+    <Compile Include="DAO\StaffDAO.cs" />
     <Compile Include="DAO\TableDAO.cs" />
     <Compile Include="DTO\Account.cs" />
     <Compile Include="DTO\Area.cs" />
@@ -63,12 +63,19 @@
     <Compile Include="DTO\Category.cs" />
     <Compile Include="DTO\Food.cs" />
     <Compile Include="DTO\MenuBill.cs" />
+    <Compile Include="DTO\Staff.cs" />
     <Compile Include="DTO\Table.cs" />
     <Compile Include="fHome.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="fHome.Designer.cs">
       <DependentUpon>fHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fInformation.Designer.cs">
+      <DependentUpon>fInformation.cs</DependentUpon>
     </Compile>
     <Compile Include="fLogin.cs">
       <SubType>Form</SubType>
@@ -82,16 +89,28 @@
     <Compile Include="fSale.Designer.cs">
       <DependentUpon>fSale.cs</DependentUpon>
     </Compile>
+    <Compile Include="fSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSetting.Designer.cs">
+      <DependentUpon>fSetting.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="fHome.resx">
       <DependentUpon>fHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fInformation.resx">
+      <DependentUpon>fInformation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fLogin.resx">
       <DependentUpon>fLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fSale.resx">
       <DependentUpon>fSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSetting.resx">
+      <DependentUpon>fSetting.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -163,6 +182,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\522711a426638c71477b6063199d92f4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-lock-download-clip-art-padlock-icon-5b5bcdfac4c640.000219341532743162806.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundsetting.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-login1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\75-754395_transparent-login-icons-png-business-user-png-download.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

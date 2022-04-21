@@ -18,7 +18,7 @@ namespace Code_PBL3.DAO
             set { CategoryDAO.instance = value; }
         }
         private CategoryDAO() { }
-        public static double CategoryWidth = 150;
+        public static double CategoryWidth = 160;
         public static double CategoryHeight = 60;
         public List<Category> GetListCategory()
         {

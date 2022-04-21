@@ -103,6 +103,16 @@ namespace Code_PBL3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _75_754395_transparent_login_icons_png_business_user_png_download {
+            get {
+                object obj = ResourceManager.GetObject("75-754395_transparent-login-icons-png-business-user-png-download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap background_Home {
             get {
                 object obj = ResourceManager.GetObject("background_Home", resourceCulture);
@@ -143,6 +153,16 @@ namespace Code_PBL3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap backgroundsetting {
+            get {
+                object obj = ResourceManager.GetObject("backgroundsetting", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap exit_183983607 {
             get {
                 object obj = ResourceManager.GetObject("exit-183983607", resourceCulture);
@@ -153,9 +173,9 @@ namespace Code_PBL3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icon_login {
+        internal static System.Drawing.Bitmap icon_login1 {
             get {
-                object obj = ResourceManager.GetObject("icon_login", resourceCulture);
+                object obj = ResourceManager.GetObject("icon-login1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +233,30 @@ namespace Code_PBL3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images__3_ {
+            get {
+                object obj = ResourceManager.GetObject("images (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap images1 {
             get {
                 object obj = ResourceManager.GetObject("images1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_computer_icons_lock_download_clip_art_padlock_icon_5b5bcdfac4c640_000219341532743162806 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-computer-icons-lock-download-clip-art-padlock-icon-5b5bcdfac4c640.0002193" +
+                        "41532743162806", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

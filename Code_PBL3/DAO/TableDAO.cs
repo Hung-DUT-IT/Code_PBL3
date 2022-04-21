@@ -21,12 +21,27 @@ namespace Code_PBL3.DAO
             private set { TableDAO.instance = value; }
         }
         private TableDAO() { }
-        public static double TableWidth = 130;
-        public static double TableHeight = 130;
+        public static double TableWidth = 143;
+        public static double TableHeight = 143;
         public List<Table> LoadTableList()
         {
             List<Table> tablelist = new List<Table>();
             DataTable data = DataProvider.Instance.ExecuteQuery("USP_GetTableList");
+            foreach (DataRow item in data.Rows)
+            {
+                Table table = new Table(item);
+                tablelist.Add(table);
+            }
+            return tablelist;
+        }
+        public List<Table> LoadTableListByArea(string namearea)
+        {
+            List<Table> tablelist = new List<Table>();
+            if(namearea == "All")
+            {
+                return tablelist = LoadTableList();
+            }
+            DataTable data = DataProvider.Instance.ExecuteQuery("exec USP_GetTableListByArea  @namearea = '" + namearea +"'");
             foreach (DataRow item in data.Rows)
             {
                 Table table = new Table(item);

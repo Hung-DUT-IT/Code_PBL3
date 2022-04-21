@@ -31,21 +31,34 @@ namespace Code_PBL3
             this.IdAcc = id;
             LoadTable();
             LoadCategory();
+            LoadAreaToCBB();
         }
-        void LoadTable()
+        #region Method
+        void LoadAreaToCBB()
         {
-            flpTable.Controls.Clear();
-            List<Table> tablelist = TableDAO.Instance.LoadTableList();
+            cbbArea.Items.Add("All");
+            foreach(string i in AreaDAO.Instance.LoadNameArea().Distinct())
+            {
+                cbbArea.Items.Add(i);
+            }
+            cbbArea.Text = "All";
+        }
+        void LoadTable(string nameArea = "All")
+        {
+            flpTable.Controls.Clear();            
+            List<Table> tablelist = TableDAO.Instance.LoadTableListByArea(nameArea);
             foreach (Table item in tablelist)
             {
                 Button btn = new Button() { Width = (int)TableDAO.TableWidth, Height = (int)TableDAO.TableHeight };
                 btn.Text = item.NameTable + Environment.NewLine + item.Status;
                 btn.Click += Btn_ClickTable;
                 btn.Tag = item;
+                btn.ForeColor = Color.Chocolate;
+                btn.Font = new Font("Microsoft Sans Serif",14.25f, FontStyle.Bold);
                 switch (item.Status)
                 {
                     case "Trống":
-                        btn.BackColor = Color.Aqua;
+                        btn.BackColor = Color.Bisque;
                         break;
                     default:
                         btn.BackColor = Color.Red;
@@ -80,6 +93,8 @@ namespace Code_PBL3
             CultureInfo culture = new CultureInfo("vi-VN");
             txbTotalPrice.Text = totalPrice.ToString("c", culture);
         }
+        #endregion
+        #region Events
         private void Btn_ClickCategory(object sender, EventArgs e)
         {
             int idCategory = ((sender as Button).Tag as Category).IDCategory;
@@ -128,5 +143,16 @@ namespace Code_PBL3
             dgvBill.Tag = (sender as Button).Tag;
             ShowBill(BillDAO.Instance.GetUnCheckBillIDByTableID(TableID));
         }
+
+        private void cbbArea_SelectedIndexChanged(object sender, EventArgs e)
+        {            
+            if (cbbArea.SelectedItem == null)
+                return;
+            else
+            {
+                LoadTable(cbbArea.Text.ToString());
+            }
+        }
+        #endregion
     }
 }

@@ -18,7 +18,7 @@ namespace Code_PBL3.DAO
             set { FoodDAO.instance = value; }
         }
         private FoodDAO() { }
-        public static double FoodWidth = 165;
+        public static double FoodWidth = 148;
         public static double FoodHeight = 60;
         public List<Food> GetFoodByCategory(int id)
         {

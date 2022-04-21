@@ -14,6 +14,7 @@ namespace Code_PBL3
 {
     public partial class fHome : Form
     {
+        private Form currentFormChild;
         private int idaAcc;
 
         public int IdAcc
@@ -30,6 +31,23 @@ namespace Code_PBL3
             this.IdAcc = id;
             ChangeAaccount();
         }
+        public void OpenFormChild(Form childForm)
+        {
+            if(currentFormChild != null)
+            {
+                currentFormChild.Close(); 
+            }
+            currentFormChild = childForm;
+            childForm.TopLevel = false;
+            childForm.TopMost = true;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            childForm.BringToFront();
+            childForm.AutoScroll = true;
+            childForm.AutoSize = true;
+            pnl_Form.Controls.Add(childForm);
+            childForm.Show();
+        }
         #region Methods
         void ChangeAaccount()
         {
@@ -39,6 +57,7 @@ namespace Code_PBL3
             lbDisplayName.Text = a.UserName + " : "+ a.DisPlayName  ;
         }
         #endregion
+        #region Events
         private void fHome_Load(object sender, EventArgs e)
         {
             timer1.Enabled = true;
@@ -52,19 +71,12 @@ namespace Code_PBL3
 
         private void btSale_Click(object sender, EventArgs e)
         {
-            fSale f1 = new fSale(this.IdAcc) { TopLevel = false, TopMost = true };
-            f1.FormBorderStyle = FormBorderStyle.None;
-            f1.Dock = DockStyle.Fill;
-            f1.BringToFront();
-            f1.AutoScroll = true;
-            f1.AutoSize = true;
-            pnl_Form.Controls.Add(f1);
-            f1.Show();
+            OpenFormChild(new fSale(this.IdAcc));
         }
 
         private void btManager_Click(object sender, EventArgs e)
         {
-           //aaa
+           
         }
 
         private void btStatistic_Click(object sender, EventArgs e)
@@ -74,12 +86,21 @@ namespace Code_PBL3
 
         private void btExit_Click(object sender, EventArgs e)
         {
-
+            if (MessageBox.Show("Ban có thật sự muốn thoát phần mềm ???", "Thông báo", MessageBoxButtons.OKCancel) == System.Windows.Forms.DialogResult.OK)
+            {
+                this.Close();
+            }
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             lbTimer.Text = DateTime.Now.ToString();
         }
+
+        private void btSetting_Click(object sender, EventArgs e)
+        {
+            OpenFormChild(new fSetting(this.IdAcc));
+        }
+        #endregion
     }
 }
