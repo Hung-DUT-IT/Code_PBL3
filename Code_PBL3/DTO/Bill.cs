@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Code_PBL3.DTO
 {
-    internal class Bill
+    public class Bill
     {
         private int iDBill;
         public int IdBill
@@ -40,8 +40,8 @@ namespace Code_PBL3.DTO
             get { return iDStaff; }
             set { iDStaff = value; }
         }
-        private DateTime? dateCheckIn;
-        public DateTime? DateCheckIn
+        private DateTime dateCheckIn;
+        public DateTime DateCheckIn
         {
             get { return dateCheckIn; }
             set { dateCheckIn = value; }
@@ -66,7 +66,7 @@ namespace Code_PBL3.DTO
             get { return totalPrice; }
             set { totalPrice = value; }
         }
-        public Bill(int idbill, string idtable,string idaccount, string idctm, string idstaff  , DateTime? datecheckin, int status, int discount = 0,int totalprice = 0 )
+        public Bill(int idbill, string idtable,string idaccount, string idctm, string idstaff  , DateTime datecheckin, int status, int discount = 0,int totalprice = 0 )
         {
             this.IdBill = idbill;
             this.IDTable = idtable;
@@ -84,7 +84,7 @@ namespace Code_PBL3.DTO
             this.IDTable = row["IdTable"].ToString();
             this.IDAccount = row["IdAccount"].ToString();
             this.IDCtm = row["IdCtm"].ToString();           
-            this.DateCheckIn = (DateTime?)row["DateCheckIn"];
+            this.DateCheckIn = (DateTime)row["DateCheckIn"];
             this.Status = (int)row["status"];
             if (row["discount"].ToString() != "")
                 this.Discount = (int)row["discount"];

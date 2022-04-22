@@ -21,7 +21,18 @@ namespace Code_PBL3.DAO
             private set { BillDAO.instance = value; }
         }
         private BillDAO() { }
-
+        public Bill GetBillByIdBill(int idbill)
+        {
+            Bill bill = null;
+            string query = "select * from Bill where IdBIll = " + idbill;
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+            foreach (DataRow item in data.Rows)
+            {
+                bill = new Bill(item);
+                return bill;
+            }
+            return bill;
+        }
         public int GetUnCheckBillIDByTableID(int idtable)
         {
             DataTable data = DataProvider.Instance.ExecuteQuery("select * from Bill where IdTable = '" + idtable +"' " + "And Status = 0 ");
@@ -32,9 +43,9 @@ namespace Code_PBL3.DAO
             }
             return -1;
         }
-        public void CheckOut(int id, int discount, float totalPrice)
+        public void CheckOut(int idBill, int discount, float totalPrice)
         {
-            string query = "UPDATE Bill Set DateCheckOut = GetDate(), status = 1," + "discount = " + discount + ", totalPrice = " + totalPrice + " where id = " + id;
+            string query = "UPDATE Bill Set Status = 1," + "Discount = " + discount + ", TotalPrice = " + totalPrice + " where idBill = " + idBill;
             DataProvider.Instance.ExecuteNonQuery(query);
 
         }

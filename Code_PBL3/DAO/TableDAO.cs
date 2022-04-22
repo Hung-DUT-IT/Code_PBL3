@@ -49,5 +49,16 @@ namespace Code_PBL3.DAO
             }
             return tablelist;
         }
+        public string GetNameTableByIdBill(int idbill)
+        {
+            string name = "";
+            string query = "select Name  from TableFood  inner join BIll on TableFood.IdTable = BIll.IdTable where IdBIll = " + idbill;
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+            foreach (DataRow item in data.Rows)
+            {
+                name = item[0].ToString();
+            }
+            return name;
+        }
     }
 }

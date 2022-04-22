@@ -132,14 +132,12 @@ namespace Code_PBL3
                 BillInforDAO.Instance.InssertBillInfor(idBill, foodID, count);
             }
             ShowBill(idBill);
-            //LoadTable();
+            LoadTable();
         }
         private void Btn_ClickTable(object sender, EventArgs e)
         {
             int TableID = ((sender as Button).Tag as Table).IdTable;
             lbNameTable.Text = ((sender as Button).Tag as Table).NameTable;
-            if(lbDateTimeCheckin.Text == "label2" )
-                lbDateTimeCheckin.Text = DateTime.Now.ToString(); 
             dgvBill.Tag = (sender as Button).Tag;
             ShowBill(BillDAO.Instance.GetUnCheckBillIDByTableID(TableID));
         }
@@ -154,5 +152,74 @@ namespace Code_PBL3
             }
         }
         #endregion
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Table table = dgvBill.Tag as Table;
+            if (table == null )
+            {
+                return;
+            }
+            Customer cus = CustomerDAO.Instance.GetCusByPhone(txbPhoneCus.Text.ToString());
+
+            int TableID = table.IdTable;
+            int idBill = BillDAO.Instance.GetUnCheckBillIDByTableID(TableID);
+            int discount = (int)nmDiscount.Value;
+            double totalPrice = Convert.ToDouble(txbTotalPrice.Text.Split(',')[0]);
+            double finalTotalPrice = totalPrice - (totalPrice / 100) * discount;
+            if (idBill != -1)
+            {
+                if (cus == null)
+                {
+                    MessageBox.Show("KH Chưa Tồn tại !! Vui Lòng Thêm Khách Hàng !!");
+                }
+                else
+                {
+                    fShowBill f1 = new fShowBill(this.IdAcc, idBill, totalPrice, discount);
+                    f1.Show();
+                    ShowBill(idBill);
+                    LoadTable();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui Lòng chọn món");
+            }
+        }
+
+        private void btSearchKH_Click(object sender, EventArgs e)
+        {
+            Customer cus = null;
+            if (txbPhoneCus.Text == "")
+            {
+                return;
+            }
+            else
+            {
+                string phone = txbPhoneCus.Text.ToString();
+                cus = CustomerDAO.Instance.GetCusByPhone(phone);
+                if(cus == null )
+                {
+                    MessageBox.Show("KH Chưa Tồn tại");
+                }
+                else
+                {
+                    MessageBox.Show("KH Đã Tồn tại");
+                    switch(cus.Point)
+                    {
+                        case 200:
+                            nmDiscount.Value = 2;
+                            break;
+                        case 500:
+                            nmDiscount.Value = 5;
+                            break;
+                        case 700:
+                            nmDiscount.Value = 7;
+                            break;
+                    }
+                    txbNameCus.Text = cus.NameCus.ToString();
+                }
+            }
+        }
     }
 }
