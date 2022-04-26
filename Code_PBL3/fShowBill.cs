@@ -14,6 +14,8 @@ namespace Code_PBL3
 {
     public partial class fShowBill : Form
     {
+        public delegate void Mydel(int id);
+        public Mydel d { get; set; }
         private int idaAcc;
 
         public int IdAcc
@@ -82,6 +84,12 @@ namespace Code_PBL3
         private void fShowBill_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (MessageBox.Show("Ban có muốn in hóa đơn không ?", "Thông báo", MessageBoxButtons.OKCancel) == System.Windows.Forms.DialogResult.OK)
+            {
+                // xuất ra file txt; 
+                BillDAO.Instance.CheckOut(this.IdBill, this.Discount, (float)Convert.ToDouble(lbTotalEnd.Text));
+                e.Cancel = false;
+            }
+            else
             {
                 BillDAO.Instance.CheckOut(this.IdBill, this.Discount, (float)Convert.ToDouble(lbTotalEnd.Text));
                 e.Cancel = false;

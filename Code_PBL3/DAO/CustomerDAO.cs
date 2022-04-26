@@ -30,5 +30,11 @@ namespace Code_PBL3.DAO
             }
             return cus;
         }
+        public bool InserterCus(string Name ,string Phone)
+        {
+            int result = DataProvider.Instance.ExecuteNonQuery("exec USP_InsertCus @TenKH , @Phone", new object[] { Name, Phone });
+            return result > 0;
+        }
+         
     }
 }

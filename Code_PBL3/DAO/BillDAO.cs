@@ -70,5 +70,11 @@ namespace Code_PBL3.DAO
             }
 
         }
+        public bool updatecusonbill(string idbill,string idcus)
+        {
+            string query = "update bill set IdCtm =  where IdBill = ";
+            int ressult = DataProvider.Instance.ExecuteNonQuery(query, new object[] {idbill, idcus});
+            return ressult > 0;
+        }
     }
 }

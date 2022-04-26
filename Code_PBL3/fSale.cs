@@ -32,6 +32,7 @@ namespace Code_PBL3
             LoadTable();
             LoadCategory();
             LoadAreaToCBB();
+            LoadCBBTable();
         }
         #region Method
         void LoadAreaToCBB()
@@ -58,10 +59,10 @@ namespace Code_PBL3
                 switch (item.Status)
                 {
                     case "Trống":
-                        btn.BackColor = Color.Bisque;
+                        btn.BackColor = Color.Aqua;
                         break;
                     default:
-                        btn.BackColor = Color.Red;
+                        btn.BackColor = Color.Beige;
                         break;
                 }
                 flpTable.Controls.Add(btn);
@@ -76,7 +77,8 @@ namespace Code_PBL3
                 Button btn = new Button() { Width = (int)CategoryDAO.CategoryWidth, Height = (int)CategoryDAO.CategoryHeight };
                 btn.Text = item.NameCategory ;
                 btn.Click += Btn_ClickCategory;
-                btn.BackColor = Color.FromArgb(255, 222, 173);
+                //btn.fo
+                btn.BackColor = Color.Chocolate ;
                 btn.Tag = item;               
                 flpCategory.Controls.Add(btn);
             }
@@ -92,6 +94,11 @@ namespace Code_PBL3
             }
             CultureInfo culture = new CultureInfo("vi-VN");
             txbTotalPrice.Text = totalPrice.ToString("c", culture);
+        }
+       void LoadCBBTable()
+        {
+            cbbCTable.DataSource = TableDAO.Instance.LoadTableList();
+            cbbCTable.DisplayMember = "NameTable";
         }
         #endregion
         #region Events
@@ -126,12 +133,13 @@ namespace Code_PBL3
             {
                 BillDAO.Instance.InsertBill(table.IdTable, this.IdAcc, DateTime.Now);
                 BillInforDAO.Instance.InssertBillInfor(BillDAO.Instance.GetMaxBill(), foodID, count);
+                ShowBill(BillDAO.Instance.GetMaxBill());
             }
             else
             {
                 BillInforDAO.Instance.InssertBillInfor(idBill, foodID, count);
+                ShowBill(idBill);
             }
-            ShowBill(idBill);
             LoadTable();
         }
         private void Btn_ClickTable(object sender, EventArgs e)
@@ -139,7 +147,16 @@ namespace Code_PBL3
             int TableID = ((sender as Button).Tag as Table).IdTable;
             lbNameTable.Text = ((sender as Button).Tag as Table).NameTable;
             dgvBill.Tag = (sender as Button).Tag;
-            ShowBill(BillDAO.Instance.GetUnCheckBillIDByTableID(TableID));
+            int idbill = BillDAO.Instance.GetUnCheckBillIDByTableID(TableID);
+            if(BillDAO.Instance.GetBillByIdBill(idbill) == null )
+            {
+                lbDateTimeCheckin.Text = "~~~";
+            }
+            else
+            {
+                lbDateTimeCheckin.Text = BillDAO.Instance.GetBillByIdBill(idbill).DateCheckIn.ToString();
+            }
+            ShowBill(idbill);
         }
 
         private void cbbArea_SelectedIndexChanged(object sender, EventArgs e)
@@ -151,12 +168,10 @@ namespace Code_PBL3
                 LoadTable(cbbArea.Text.ToString());
             }
         }
-        #endregion
-
         private void button1_Click(object sender, EventArgs e)
         {
             Table table = dgvBill.Tag as Table;
-            if (table == null )
+            if (table == null)
             {
                 return;
             }
@@ -169,16 +184,14 @@ namespace Code_PBL3
             double finalTotalPrice = totalPrice - (totalPrice / 100) * discount;
             if (idBill != -1)
             {
-                if (cus == null)
-                {
-                    MessageBox.Show("KH Chưa Tồn tại !! Vui Lòng Thêm Khách Hàng !!");
-                }
-                else
+                if (MessageBox.Show("Ban có chắc chắn muốn tính tiền không ?", "Thông báo", MessageBoxButtons.OKCancel) == System.Windows.Forms.DialogResult.OK)
                 {
                     fShowBill f1 = new fShowBill(this.IdAcc, idBill, totalPrice, discount);
-                    f1.Show();
+                    this.Hide();
+                    f1.ShowDialog();
                     ShowBill(idBill);
                     LoadTable();
+                    this.Show();
                 }
             }
             else
@@ -198,28 +211,59 @@ namespace Code_PBL3
             {
                 string phone = txbPhoneCus.Text.ToString();
                 cus = CustomerDAO.Instance.GetCusByPhone(phone);
-                if(cus == null )
+                if (cus == null)
                 {
                     MessageBox.Show("KH Chưa Tồn tại");
                 }
                 else
                 {
                     MessageBox.Show("KH Đã Tồn tại");
-                    switch(cus.Point)
+                    if (cus.Point >= 200 && cus.Point < 500)
                     {
-                        case 200:
-                            nmDiscount.Value = 2;
-                            break;
-                        case 500:
+                        nmDiscount.Value = 2;
+                    }
+                    else
+                    {
+                        if (cus.Point >= 500 && cus.Point < 700)
+                        {
                             nmDiscount.Value = 5;
-                            break;
-                        case 700:
+                        }
+                        else
+                        {
                             nmDiscount.Value = 7;
-                            break;
+                        }
                     }
                     txbNameCus.Text = cus.NameCus.ToString();
                 }
             }
         }
+        private void btAddKH_Click(object sender, EventArgs e)
+        {
+            string Name = txbNameCus.Text.ToString();
+            string Phone = txbPhoneCus.Text.ToString();
+            if (Name == "" || Phone == "")
+            {
+                MessageBox.Show("Vui Lòng Nhập Thông Tin");
+            }
+            else
+            {
+                if (CustomerDAO.Instance.InserterCus(Name, Phone))
+                {
+                    MessageBox.Show("Khách Hàng Đã Được Them Vào Hệ Thống");
+                }
+            }
+        }
+
+        private void btSwitchTable_Click(object sender, EventArgs e)
+        {
+            int idTable1 = (dgvBill.Tag as Table).IdTable;
+            int idTable2 = (cbbCTable.SelectedItem as Table).IdTable;
+            if (MessageBox.Show(String.Format("Bạn có thực sự muốn chuyển bàn {0} qua bàn {1} ??", (dgvBill.Tag as Table).NameTable, (cbbCTable.SelectedItem as Table).NameTable), "Thông báo", MessageBoxButtons.OKCancel) == System.Windows.Forms.DialogResult.OK)
+            {
+                TableDAO.Instance.SwitchTable(idTable1, idTable2, this.IdAcc, DateTime.Now);
+                LoadTable();
+            }
+        }
+        #endregion
     }
 }

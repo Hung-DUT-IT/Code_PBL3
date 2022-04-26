@@ -60,5 +60,9 @@ namespace Code_PBL3.DAO
             }
             return name;
         }
+        public void SwitchTable(int idtable1, int idtable2, int idAcc, DateTime checkIn)
+        {
+            DataProvider.Instance.ExecuteQuery("USP_SwitchTable @idTable1 , @idTable2 , @idAccount , @datecheckin ", new object[] { idtable1, idtable2, idAcc , checkIn });
+        }
     }
 }

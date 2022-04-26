@@ -27,3 +27,4 @@ C:\Users\huuhu\source\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.pdb
 C:\Users\huuhu\source\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.fSetting.resources
 C:\Users\huuhu\source\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.fInformation.resources
 C:\Users\huuhu\source\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.fShowBill.resources
+C:\Users\huuhu\source\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.fManager.resources

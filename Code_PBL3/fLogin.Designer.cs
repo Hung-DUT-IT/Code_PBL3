@@ -71,7 +71,7 @@
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(716, 865);
-            this.panel2.TabIndex = 14;
+            this.panel2.TabIndex = 1;
             // 
             // label6
             // 
@@ -121,7 +121,7 @@
             this.txbPassWord.Name = "txbPassWord";
             this.txbPassWord.PasswordChar = '*';
             this.txbPassWord.Size = new System.Drawing.Size(305, 22);
-            this.txbPassWord.TabIndex = 4;
+            this.txbPassWord.TabIndex = 2;
             this.txbPassWord.Text = "admin";
             // 
             // label3
@@ -142,7 +142,7 @@
             this.btLogin.Margin = new System.Windows.Forms.Padding(4);
             this.btLogin.Name = "btLogin";
             this.btLogin.Size = new System.Drawing.Size(183, 66);
-            this.btLogin.TabIndex = 1;
+            this.btLogin.TabIndex = 3;
             this.btLogin.UseVisualStyleBackColor = true;
             this.btLogin.Click += new System.EventHandler(this.btLogin_Click);
             // 
@@ -166,7 +166,7 @@
             this.btExit.Margin = new System.Windows.Forms.Padding(4);
             this.btExit.Name = "btExit";
             this.btExit.Size = new System.Drawing.Size(171, 66);
-            this.btExit.TabIndex = 5;
+            this.btExit.TabIndex = 4;
             this.btExit.UseVisualStyleBackColor = false;
             this.btExit.Click += new System.EventHandler(this.btExit_Click);
             // 
@@ -196,7 +196,7 @@
             this.txbUserName.Margin = new System.Windows.Forms.Padding(4);
             this.txbUserName.Name = "txbUserName";
             this.txbUserName.Size = new System.Drawing.Size(305, 22);
-            this.txbUserName.TabIndex = 2;
+            this.txbUserName.TabIndex = 1;
             this.txbUserName.TabStop = false;
             this.txbUserName.Text = "admin";
             // 

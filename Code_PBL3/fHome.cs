@@ -76,7 +76,7 @@ namespace Code_PBL3
 
         private void btManager_Click(object sender, EventArgs e)
         {
-           
+            OpenFormChild(new fManager());
         }
 
         private void btStatistic_Click(object sender, EventArgs e)
@@ -102,5 +102,7 @@ namespace Code_PBL3
             OpenFormChild(new fSetting(this.IdAcc));
         }
         #endregion
+
+        
     }
 }

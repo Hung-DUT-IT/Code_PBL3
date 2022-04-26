@@ -50,10 +50,8 @@ namespace Code_PBL3.DAO
 
                 connection.Close();
             }
-
             return data;
         }
-
         public int ExecuteNonQuery(string query, object[] parameter = null)
         {
             int data = 0;
@@ -77,11 +75,9 @@ namespace Code_PBL3.DAO
                         }
                     }
                 }
-
                 data = command.ExecuteNonQuery();
                 connection.Close();
             }
-
             return data;
         }
 
@@ -108,12 +104,9 @@ namespace Code_PBL3.DAO
                         }
                     }
                 }
-
                 data = command.ExecuteScalar();
-
                 connection.Close();
             }
-
             return data;
         }
     }
