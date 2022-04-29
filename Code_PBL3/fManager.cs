@@ -17,9 +17,6 @@ namespace Code_PBL3
             InitializeComponent();
         }
 
-<<<<<<< HEAD
-
-=======
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
@@ -34,6 +31,5 @@ namespace Code_PBL3
         {
 
         }
->>>>>>> parent of 9a2c6d7 (trong)
     }
 }
