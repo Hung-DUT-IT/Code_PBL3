@@ -54,7 +54,7 @@ namespace Code_PBL3
             Account a = AccountDAO.Instance.GetAccountByID(IdAcc);
             btManager.Enabled = a.Type == 1;
             btStatistic.Enabled = a.Type == 1;
-            lbDisplayName.Text = a.UserName + " : "+ a.DisPlayName  ;
+            lbDisplayName.Text = a.UserName + "    : "+ a.DisPlayName  ;
         }
         #endregion
         #region Events
