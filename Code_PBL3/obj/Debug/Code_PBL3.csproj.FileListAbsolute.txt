@@ -28,6 +28,7 @@ C:\Users\huuhu\source\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.fSetting.resources
 C:\Users\huuhu\source\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.fInformation.resources
 C:\Users\huuhu\source\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.fShowBill.resources
 C:\Users\huuhu\source\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.fManager.resources
+<<<<<<< HEAD
 C:\Users\trong\source\repos\HungCODER1\Code_PBL3\bin\Debug\Code_PBL3.exe.config
 C:\Users\trong\source\repos\HungCODER1\Code_PBL3\bin\Debug\Code_PBL3.exe
 C:\Users\trong\source\repos\HungCODER1\Code_PBL3\bin\Debug\Code_PBL3.pdb
@@ -45,3 +46,5 @@ C:\Users\trong\source\repos\HungCODER1\Code_PBL3\obj\Debug\Code_PBL3.csproj.Gene
 C:\Users\trong\source\repos\HungCODER1\Code_PBL3\obj\Debug\Code_PBL3.csproj.CoreCompileInputs.cache
 C:\Users\trong\source\repos\HungCODER1\Code_PBL3\obj\Debug\Code_PBL3.exe
 C:\Users\trong\source\repos\HungCODER1\Code_PBL3\obj\Debug\Code_PBL3.pdb
+=======
+>>>>>>> parent of 9a2c6d7 (trong)
