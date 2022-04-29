@@ -29,6 +29,68 @@
         private void InitializeComponent()
         {
             this.tabPage6 = new System.Windows.Forms.TabPage();
+<<<<<<< HEAD
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.txbNameArea = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.txbIdArea = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.btSearchArea = new System.Windows.Forms.Button();
+            this.btDeleteArea = new System.Windows.Forms.Button();
+            this.btUpdateArea = new System.Windows.Forms.Button();
+            this.btAddArea = new System.Windows.Forms.Button();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.dataGridView6 = new System.Windows.Forms.DataGridView();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.txbStatus = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.txbArea = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.txbNameTable = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.txbIdTable = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.btSearchTable = new System.Windows.Forms.Button();
+            this.btDeleteTable = new System.Windows.Forms.Button();
+            this.btUpdateTable = new System.Windows.Forms.Button();
+            this.btAddTable = new System.Windows.Forms.Button();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.dataGridView5 = new System.Windows.Forms.DataGridView();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.txbPrice = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txCategory = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.txbNameFood = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.txbIDFood = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.btSearchFood = new System.Windows.Forms.Button();
+            this.btDeleteFod = new System.Windows.Forms.Button();
+            this.btUpdateFood = new System.Windows.Forms.Button();
+            this.btAddFood = new System.Windows.Forms.Button();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.dataGridView4 = new System.Windows.Forms.DataGridView();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.txbNameCategory = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.txbIDCategory = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.btSearchCategory = new System.Windows.Forms.Button();
+            this.btDeleteCategory = new System.Windows.Forms.Button();
+            this.btUpdateCategory = new System.Windows.Forms.Button();
+            this.btAddCategory = new System.Windows.Forms.Button();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+=======
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
@@ -71,6 +133,7 @@
             this.button8 = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
+>>>>>>> parent of 9a2c6d7 (trong)
             this.panel4 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -89,6 +152,44 @@
             this.button12 = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+<<<<<<< HEAD
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.txbTypeAccount = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txbDisplayName = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txbPass = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txbUserName = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txbIdAccount = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.tabAccount = new System.Windows.Forms.TabControl();
+            this.tabPage6.SuspendLayout();
+            this.panel16.SuspendLayout();
+            this.panel17.SuspendLayout();
+            this.panel18.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
+            this.tabPage5.SuspendLayout();
+            this.panel13.SuspendLayout();
+            this.panel14.SuspendLayout();
+            this.panel15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
+            this.tabPage4.SuspendLayout();
+            this.panel10.SuspendLayout();
+            this.panel11.SuspendLayout();
+            this.panel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
+            this.tabPage3.SuspendLayout();
+=======
             this.panel10 = new System.Windows.Forms.Panel();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
@@ -154,14 +255,27 @@
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.tabAccount.SuspendLayout();
+>>>>>>> parent of 9a2c6d7 (trong)
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+<<<<<<< HEAD
+            this.tabPage2.SuspendLayout();
+=======
+>>>>>>> parent of 9a2c6d7 (trong)
             this.panel4.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+<<<<<<< HEAD
+            this.tabPage1.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.tabAccount.SuspendLayout();
+=======
             this.panel10.SuspendLayout();
             this.panel11.SuspendLayout();
             this.panel12.SuspendLayout();
@@ -174,6 +288,7 @@
             this.panel17.SuspendLayout();
             this.panel18.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
+>>>>>>> parent of 9a2c6d7 (trong)
             this.SuspendLayout();
             // 
             // tabPage6
@@ -189,6 +304,137 @@
             this.tabPage6.Text = "Khu Vực";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
+            // panel16
+            // 
+            this.panel16.BackColor = System.Drawing.Color.PeachPuff;
+            this.panel16.Controls.Add(this.txbNameArea);
+            this.panel16.Controls.Add(this.label29);
+            this.panel16.Controls.Add(this.txbIdArea);
+            this.panel16.Controls.Add(this.label30);
+            this.panel16.Location = new System.Drawing.Point(906, 3);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(978, 673);
+            this.panel16.TabIndex = 5;
+            // 
+            // txbNameArea
+            // 
+            this.txbNameArea.BackColor = System.Drawing.Color.Bisque;
+            this.txbNameArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txbNameArea.ForeColor = System.Drawing.Color.Chocolate;
+            this.txbNameArea.Location = new System.Drawing.Point(451, 366);
+            this.txbNameArea.Name = "txbNameArea";
+            this.txbNameArea.ReadOnly = true;
+            this.txbNameArea.Size = new System.Drawing.Size(403, 38);
+            this.txbNameArea.TabIndex = 24;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.Color.Bisque;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label29.ForeColor = System.Drawing.Color.Chocolate;
+            this.label29.Location = new System.Drawing.Point(171, 372);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(165, 32);
+            this.label29.TabIndex = 23;
+            this.label29.Text = "Name Area";
+            // 
+            // txbIdArea
+            // 
+            this.txbIdArea.BackColor = System.Drawing.Color.Bisque;
+            this.txbIdArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txbIdArea.ForeColor = System.Drawing.Color.Chocolate;
+            this.txbIdArea.Location = new System.Drawing.Point(451, 240);
+            this.txbIdArea.Name = "txbIdArea";
+            this.txbIdArea.ReadOnly = true;
+            this.txbIdArea.Size = new System.Drawing.Size(403, 38);
+            this.txbIdArea.TabIndex = 22;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.BackColor = System.Drawing.Color.Bisque;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label30.ForeColor = System.Drawing.Color.Chocolate;
+            this.label30.Location = new System.Drawing.Point(171, 246);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(115, 32);
+            this.label30.TabIndex = 21;
+            this.label30.Text = "ID Area";
+            // 
+            // panel17
+            // 
+            this.panel17.BackColor = System.Drawing.Color.PeachPuff;
+            this.panel17.Controls.Add(this.btSearchArea);
+            this.panel17.Controls.Add(this.btDeleteArea);
+            this.panel17.Controls.Add(this.btUpdateArea);
+            this.panel17.Controls.Add(this.btAddArea);
+            this.panel17.Location = new System.Drawing.Point(906, 682);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(978, 179);
+            this.panel17.TabIndex = 4;
+            // 
+            // btSearchArea
+            // 
+            this.btSearchArea.Location = new System.Drawing.Point(745, 9);
+            this.btSearchArea.Name = "btSearchArea";
+            this.btSearchArea.Size = new System.Drawing.Size(225, 80);
+            this.btSearchArea.TabIndex = 3;
+            this.btSearchArea.Text = "Search";
+            this.btSearchArea.UseVisualStyleBackColor = true;
+            // 
+            // btDeleteArea
+            // 
+            this.btDeleteArea.Location = new System.Drawing.Point(504, 9);
+            this.btDeleteArea.Name = "btDeleteArea";
+            this.btDeleteArea.Size = new System.Drawing.Size(225, 80);
+            this.btDeleteArea.TabIndex = 2;
+            this.btDeleteArea.Text = "Delete";
+            this.btDeleteArea.UseVisualStyleBackColor = true;
+            // 
+            // btUpdateArea
+            // 
+            this.btUpdateArea.Location = new System.Drawing.Point(260, 9);
+            this.btUpdateArea.Name = "btUpdateArea";
+            this.btUpdateArea.Size = new System.Drawing.Size(225, 80);
+            this.btUpdateArea.TabIndex = 1;
+            this.btUpdateArea.Text = "Update";
+            this.btUpdateArea.UseVisualStyleBackColor = true;
+            // 
+            // btAddArea
+            // 
+            this.btAddArea.Location = new System.Drawing.Point(17, 9);
+            this.btAddArea.Name = "btAddArea";
+            this.btAddArea.Size = new System.Drawing.Size(225, 80);
+            this.btAddArea.TabIndex = 0;
+            this.btAddArea.Text = "Add";
+            this.btAddArea.UseVisualStyleBackColor = true;
+            // 
+            // panel18
+            // 
+            this.panel18.Controls.Add(this.dataGridView6);
+            this.panel18.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel18.Location = new System.Drawing.Point(3, 3);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(898, 858);
+            this.panel18.TabIndex = 3;
+            // 
+            // dataGridView6
+            // 
+            this.dataGridView6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.dataGridView6.BackgroundColor = System.Drawing.Color.PeachPuff;
+            this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView6.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView6.Name = "dataGridView6";
+            this.dataGridView6.RowHeadersWidth = 51;
+            this.dataGridView6.RowTemplate.Height = 24;
+            this.dataGridView6.Size = new System.Drawing.Size(889, 864);
+            this.dataGridView6.TabIndex = 0;
+            // 
+=======
+>>>>>>> parent of 9a2c6d7 (trong)
             // tabPage5
             // 
             this.tabPage5.Controls.Add(this.panel13);
@@ -202,6 +448,187 @@
             this.tabPage5.Text = "Bàn Ăn";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
+            // panel13
+            // 
+            this.panel13.BackColor = System.Drawing.Color.PeachPuff;
+            this.panel13.Controls.Add(this.txbStatus);
+            this.panel13.Controls.Add(this.label22);
+            this.panel13.Controls.Add(this.txbArea);
+            this.panel13.Controls.Add(this.label23);
+            this.panel13.Controls.Add(this.txbNameTable);
+            this.panel13.Controls.Add(this.label24);
+            this.panel13.Controls.Add(this.txbIdTable);
+            this.panel13.Controls.Add(this.label25);
+            this.panel13.Location = new System.Drawing.Point(906, 3);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(978, 672);
+            this.panel13.TabIndex = 5;
+            // 
+            // txbStatus
+            // 
+            this.txbStatus.BackColor = System.Drawing.Color.Bisque;
+            this.txbStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txbStatus.ForeColor = System.Drawing.Color.Chocolate;
+            this.txbStatus.Location = new System.Drawing.Point(443, 504);
+            this.txbStatus.Name = "txbStatus";
+            this.txbStatus.Size = new System.Drawing.Size(403, 38);
+            this.txbStatus.TabIndex = 28;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.Bisque;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label22.ForeColor = System.Drawing.Color.Chocolate;
+            this.label22.Location = new System.Drawing.Point(163, 510);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(101, 32);
+            this.label22.TabIndex = 27;
+            this.label22.Text = "Status";
+            // 
+            // txbArea
+            // 
+            this.txbArea.BackColor = System.Drawing.Color.Bisque;
+            this.txbArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txbArea.ForeColor = System.Drawing.Color.Chocolate;
+            this.txbArea.Location = new System.Drawing.Point(443, 373);
+            this.txbArea.Name = "txbArea";
+            this.txbArea.PasswordChar = '*';
+            this.txbArea.ReadOnly = true;
+            this.txbArea.Size = new System.Drawing.Size(403, 38);
+            this.txbArea.TabIndex = 26;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.Bisque;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label23.ForeColor = System.Drawing.Color.Chocolate;
+            this.label23.Location = new System.Drawing.Point(163, 379);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(78, 32);
+            this.label23.TabIndex = 25;
+            this.label23.Text = "Area";
+            // 
+            // txbNameTable
+            // 
+            this.txbNameTable.BackColor = System.Drawing.Color.Bisque;
+            this.txbNameTable.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txbNameTable.ForeColor = System.Drawing.Color.Chocolate;
+            this.txbNameTable.Location = new System.Drawing.Point(443, 262);
+            this.txbNameTable.Name = "txbNameTable";
+            this.txbNameTable.ReadOnly = true;
+            this.txbNameTable.Size = new System.Drawing.Size(403, 38);
+            this.txbNameTable.TabIndex = 24;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.Bisque;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label24.ForeColor = System.Drawing.Color.Chocolate;
+            this.label24.Location = new System.Drawing.Point(163, 268);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(178, 32);
+            this.label24.TabIndex = 23;
+            this.label24.Text = "Name Table";
+            // 
+            // txbIdTable
+            // 
+            this.txbIdTable.BackColor = System.Drawing.Color.Bisque;
+            this.txbIdTable.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txbIdTable.ForeColor = System.Drawing.Color.Chocolate;
+            this.txbIdTable.Location = new System.Drawing.Point(443, 136);
+            this.txbIdTable.Name = "txbIdTable";
+            this.txbIdTable.ReadOnly = true;
+            this.txbIdTable.Size = new System.Drawing.Size(403, 38);
+            this.txbIdTable.TabIndex = 22;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.Bisque;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label25.ForeColor = System.Drawing.Color.Chocolate;
+            this.label25.Location = new System.Drawing.Point(163, 142);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(128, 32);
+            this.label25.TabIndex = 21;
+            this.label25.Text = "ID Table";
+            // 
+            // panel14
+            // 
+            this.panel14.BackColor = System.Drawing.Color.PeachPuff;
+            this.panel14.Controls.Add(this.btSearchTable);
+            this.panel14.Controls.Add(this.btDeleteTable);
+            this.panel14.Controls.Add(this.btUpdateTable);
+            this.panel14.Controls.Add(this.btAddTable);
+            this.panel14.Location = new System.Drawing.Point(906, 681);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(978, 177);
+            this.panel14.TabIndex = 4;
+            // 
+            // btSearchTable
+            // 
+            this.btSearchTable.Location = new System.Drawing.Point(740, 8);
+            this.btSearchTable.Name = "btSearchTable";
+            this.btSearchTable.Size = new System.Drawing.Size(225, 80);
+            this.btSearchTable.TabIndex = 3;
+            this.btSearchTable.Text = "Search";
+            this.btSearchTable.UseVisualStyleBackColor = true;
+            // 
+            // btDeleteTable
+            // 
+            this.btDeleteTable.Location = new System.Drawing.Point(499, 8);
+            this.btDeleteTable.Name = "btDeleteTable";
+            this.btDeleteTable.Size = new System.Drawing.Size(225, 80);
+            this.btDeleteTable.TabIndex = 2;
+            this.btDeleteTable.Text = "Delete";
+            this.btDeleteTable.UseVisualStyleBackColor = true;
+            // 
+            // btUpdateTable
+            // 
+            this.btUpdateTable.Location = new System.Drawing.Point(255, 8);
+            this.btUpdateTable.Name = "btUpdateTable";
+            this.btUpdateTable.Size = new System.Drawing.Size(225, 80);
+            this.btUpdateTable.TabIndex = 1;
+            this.btUpdateTable.Text = "Update";
+            this.btUpdateTable.UseVisualStyleBackColor = true;
+            // 
+            // btAddTable
+            // 
+            this.btAddTable.Location = new System.Drawing.Point(12, 8);
+            this.btAddTable.Name = "btAddTable";
+            this.btAddTable.Size = new System.Drawing.Size(225, 80);
+            this.btAddTable.TabIndex = 0;
+            this.btAddTable.Text = "Add";
+            this.btAddTable.UseVisualStyleBackColor = true;
+            // 
+            // panel15
+            // 
+            this.panel15.Controls.Add(this.dataGridView5);
+            this.panel15.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel15.Location = new System.Drawing.Point(3, 3);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(898, 858);
+            this.panel15.TabIndex = 3;
+            // 
+            // dataGridView5
+            // 
+            this.dataGridView5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.dataGridView5.BackgroundColor = System.Drawing.Color.PeachPuff;
+            this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView5.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView5.Name = "dataGridView5";
+            this.dataGridView5.RowHeadersWidth = 51;
+            this.dataGridView5.RowTemplate.Height = 24;
+            this.dataGridView5.Size = new System.Drawing.Size(889, 864);
+            this.dataGridView5.TabIndex = 0;
+            // 
+=======
+>>>>>>> parent of 9a2c6d7 (trong)
             // tabPage4
             // 
             this.tabPage4.Controls.Add(this.panel10);
@@ -215,6 +642,187 @@
             this.tabPage4.Text = "Món Ăn";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.PeachPuff;
+            this.panel10.Controls.Add(this.txbPrice);
+            this.panel10.Controls.Add(this.label17);
+            this.panel10.Controls.Add(this.txCategory);
+            this.panel10.Controls.Add(this.label18);
+            this.panel10.Controls.Add(this.txbNameFood);
+            this.panel10.Controls.Add(this.label19);
+            this.panel10.Controls.Add(this.txbIDFood);
+            this.panel10.Controls.Add(this.label20);
+            this.panel10.Location = new System.Drawing.Point(906, 3);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(978, 671);
+            this.panel10.TabIndex = 5;
+            // 
+            // txbPrice
+            // 
+            this.txbPrice.BackColor = System.Drawing.Color.Bisque;
+            this.txbPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txbPrice.ForeColor = System.Drawing.Color.Chocolate;
+            this.txbPrice.Location = new System.Drawing.Point(449, 510);
+            this.txbPrice.Name = "txbPrice";
+            this.txbPrice.Size = new System.Drawing.Size(403, 38);
+            this.txbPrice.TabIndex = 28;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Bisque;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label17.ForeColor = System.Drawing.Color.Chocolate;
+            this.label17.Location = new System.Drawing.Point(169, 516);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(84, 32);
+            this.label17.TabIndex = 27;
+            this.label17.Text = "Price";
+            // 
+            // txCategory
+            // 
+            this.txCategory.BackColor = System.Drawing.Color.Bisque;
+            this.txCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txCategory.ForeColor = System.Drawing.Color.Chocolate;
+            this.txCategory.Location = new System.Drawing.Point(449, 379);
+            this.txCategory.Name = "txCategory";
+            this.txCategory.PasswordChar = '*';
+            this.txCategory.ReadOnly = true;
+            this.txCategory.Size = new System.Drawing.Size(403, 38);
+            this.txCategory.TabIndex = 26;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Bisque;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label18.ForeColor = System.Drawing.Color.Chocolate;
+            this.label18.Location = new System.Drawing.Point(169, 385);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(137, 32);
+            this.label18.TabIndex = 25;
+            this.label18.Text = "Category";
+            // 
+            // txbNameFood
+            // 
+            this.txbNameFood.BackColor = System.Drawing.Color.Bisque;
+            this.txbNameFood.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txbNameFood.ForeColor = System.Drawing.Color.Chocolate;
+            this.txbNameFood.Location = new System.Drawing.Point(449, 268);
+            this.txbNameFood.Name = "txbNameFood";
+            this.txbNameFood.ReadOnly = true;
+            this.txbNameFood.Size = new System.Drawing.Size(403, 38);
+            this.txbNameFood.TabIndex = 24;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Bisque;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label19.ForeColor = System.Drawing.Color.Chocolate;
+            this.label19.Location = new System.Drawing.Point(169, 274);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(170, 32);
+            this.label19.TabIndex = 23;
+            this.label19.Text = "Name Food";
+            // 
+            // txbIDFood
+            // 
+            this.txbIDFood.BackColor = System.Drawing.Color.Bisque;
+            this.txbIDFood.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txbIDFood.ForeColor = System.Drawing.Color.Chocolate;
+            this.txbIDFood.Location = new System.Drawing.Point(449, 142);
+            this.txbIDFood.Name = "txbIDFood";
+            this.txbIDFood.ReadOnly = true;
+            this.txbIDFood.Size = new System.Drawing.Size(403, 38);
+            this.txbIDFood.TabIndex = 22;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.Bisque;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label20.ForeColor = System.Drawing.Color.Chocolate;
+            this.label20.Location = new System.Drawing.Point(169, 148);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(120, 32);
+            this.label20.TabIndex = 21;
+            this.label20.Text = "ID Food";
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.PeachPuff;
+            this.panel11.Controls.Add(this.btSearchFood);
+            this.panel11.Controls.Add(this.btDeleteFod);
+            this.panel11.Controls.Add(this.btUpdateFood);
+            this.panel11.Controls.Add(this.btAddFood);
+            this.panel11.Location = new System.Drawing.Point(906, 680);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(978, 178);
+            this.panel11.TabIndex = 4;
+            // 
+            // btSearchFood
+            // 
+            this.btSearchFood.Location = new System.Drawing.Point(741, 8);
+            this.btSearchFood.Name = "btSearchFood";
+            this.btSearchFood.Size = new System.Drawing.Size(225, 80);
+            this.btSearchFood.TabIndex = 3;
+            this.btSearchFood.Text = "Search";
+            this.btSearchFood.UseVisualStyleBackColor = true;
+            // 
+            // btDeleteFod
+            // 
+            this.btDeleteFod.Location = new System.Drawing.Point(500, 8);
+            this.btDeleteFod.Name = "btDeleteFod";
+            this.btDeleteFod.Size = new System.Drawing.Size(225, 80);
+            this.btDeleteFod.TabIndex = 2;
+            this.btDeleteFod.Text = "Delete";
+            this.btDeleteFod.UseVisualStyleBackColor = true;
+            // 
+            // btUpdateFood
+            // 
+            this.btUpdateFood.Location = new System.Drawing.Point(256, 8);
+            this.btUpdateFood.Name = "btUpdateFood";
+            this.btUpdateFood.Size = new System.Drawing.Size(225, 80);
+            this.btUpdateFood.TabIndex = 1;
+            this.btUpdateFood.Text = "Update";
+            this.btUpdateFood.UseVisualStyleBackColor = true;
+            // 
+            // btAddFood
+            // 
+            this.btAddFood.Location = new System.Drawing.Point(13, 8);
+            this.btAddFood.Name = "btAddFood";
+            this.btAddFood.Size = new System.Drawing.Size(225, 80);
+            this.btAddFood.TabIndex = 0;
+            this.btAddFood.Text = "Add";
+            this.btAddFood.UseVisualStyleBackColor = true;
+            // 
+            // panel12
+            // 
+            this.panel12.Controls.Add(this.dataGridView4);
+            this.panel12.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel12.Location = new System.Drawing.Point(3, 3);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(898, 858);
+            this.panel12.TabIndex = 3;
+            // 
+            // dataGridView4
+            // 
+            this.dataGridView4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.dataGridView4.BackgroundColor = System.Drawing.Color.PeachPuff;
+            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView4.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView4.Name = "dataGridView4";
+            this.dataGridView4.RowHeadersWidth = 51;
+            this.dataGridView4.RowTemplate.Height = 24;
+            this.dataGridView4.Size = new System.Drawing.Size(889, 864);
+            this.dataGridView4.TabIndex = 0;
+            // 
+=======
+>>>>>>> parent of 9a2c6d7 (trong)
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.panel5);
@@ -228,6 +836,137 @@
             this.tabPage3.Text = "Danh Mục Món Ăn";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.PeachPuff;
+            this.panel5.Controls.Add(this.txbNameCategory);
+            this.panel5.Controls.Add(this.label14);
+            this.panel5.Controls.Add(this.txbIDCategory);
+            this.panel5.Controls.Add(this.label15);
+            this.panel5.Location = new System.Drawing.Point(906, 3);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(978, 672);
+            this.panel5.TabIndex = 5;
+            // 
+            // txbNameCategory
+            // 
+            this.txbNameCategory.BackColor = System.Drawing.Color.Bisque;
+            this.txbNameCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txbNameCategory.ForeColor = System.Drawing.Color.Chocolate;
+            this.txbNameCategory.Location = new System.Drawing.Point(420, 371);
+            this.txbNameCategory.Name = "txbNameCategory";
+            this.txbNameCategory.ReadOnly = true;
+            this.txbNameCategory.Size = new System.Drawing.Size(403, 38);
+            this.txbNameCategory.TabIndex = 24;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Bisque;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label14.ForeColor = System.Drawing.Color.Chocolate;
+            this.label14.Location = new System.Drawing.Point(140, 377);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(224, 32);
+            this.label14.TabIndex = 23;
+            this.label14.Text = "Name Category";
+            // 
+            // txbIDCategory
+            // 
+            this.txbIDCategory.BackColor = System.Drawing.Color.Bisque;
+            this.txbIDCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txbIDCategory.ForeColor = System.Drawing.Color.Chocolate;
+            this.txbIDCategory.Location = new System.Drawing.Point(420, 245);
+            this.txbIDCategory.Name = "txbIDCategory";
+            this.txbIDCategory.ReadOnly = true;
+            this.txbIDCategory.Size = new System.Drawing.Size(403, 38);
+            this.txbIDCategory.TabIndex = 22;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Bisque;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label15.ForeColor = System.Drawing.Color.Chocolate;
+            this.label15.Location = new System.Drawing.Point(140, 251);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(174, 32);
+            this.label15.TabIndex = 21;
+            this.label15.Text = "ID Category";
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.PeachPuff;
+            this.panel6.Controls.Add(this.btSearchCategory);
+            this.panel6.Controls.Add(this.btDeleteCategory);
+            this.panel6.Controls.Add(this.btUpdateCategory);
+            this.panel6.Controls.Add(this.btAddCategory);
+            this.panel6.Location = new System.Drawing.Point(906, 681);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(978, 180);
+            this.panel6.TabIndex = 4;
+            // 
+            // btSearchCategory
+            // 
+            this.btSearchCategory.Location = new System.Drawing.Point(740, 9);
+            this.btSearchCategory.Name = "btSearchCategory";
+            this.btSearchCategory.Size = new System.Drawing.Size(225, 80);
+            this.btSearchCategory.TabIndex = 3;
+            this.btSearchCategory.Text = "Search";
+            this.btSearchCategory.UseVisualStyleBackColor = true;
+            // 
+            // btDeleteCategory
+            // 
+            this.btDeleteCategory.Location = new System.Drawing.Point(499, 9);
+            this.btDeleteCategory.Name = "btDeleteCategory";
+            this.btDeleteCategory.Size = new System.Drawing.Size(225, 80);
+            this.btDeleteCategory.TabIndex = 2;
+            this.btDeleteCategory.Text = "Delete";
+            this.btDeleteCategory.UseVisualStyleBackColor = true;
+            // 
+            // btUpdateCategory
+            // 
+            this.btUpdateCategory.Location = new System.Drawing.Point(255, 9);
+            this.btUpdateCategory.Name = "btUpdateCategory";
+            this.btUpdateCategory.Size = new System.Drawing.Size(225, 80);
+            this.btUpdateCategory.TabIndex = 1;
+            this.btUpdateCategory.Text = "Update";
+            this.btUpdateCategory.UseVisualStyleBackColor = true;
+            // 
+            // btAddCategory
+            // 
+            this.btAddCategory.Location = new System.Drawing.Point(12, 9);
+            this.btAddCategory.Name = "btAddCategory";
+            this.btAddCategory.Size = new System.Drawing.Size(225, 80);
+            this.btAddCategory.TabIndex = 0;
+            this.btAddCategory.Text = "Add";
+            this.btAddCategory.UseVisualStyleBackColor = true;
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.dataGridView3);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel7.Location = new System.Drawing.Point(3, 3);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(898, 858);
+            this.panel7.TabIndex = 3;
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.dataGridView3.BackgroundColor = System.Drawing.Color.PeachPuff;
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.RowHeadersWidth = 51;
+            this.dataGridView3.RowTemplate.Height = 24;
+            this.dataGridView3.Size = new System.Drawing.Size(889, 864);
+            this.dataGridView3.TabIndex = 0;
+            // 
+=======
+>>>>>>> parent of 9a2c6d7 (trong)
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.panel4);
@@ -241,6 +980,211 @@
             this.tabPage2.Text = "Nhân Viên";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.PeachPuff;
+            this.panel4.Controls.Add(this.textBox1);
+            this.panel4.Controls.Add(this.label1);
+            this.panel4.Controls.Add(this.textBox2);
+            this.panel4.Controls.Add(this.label2);
+            this.panel4.Controls.Add(this.textBox3);
+            this.panel4.Controls.Add(this.label3);
+            this.panel4.Controls.Add(this.textBox4);
+            this.panel4.Controls.Add(this.label4);
+            this.panel4.Controls.Add(this.textBox5);
+            this.panel4.Controls.Add(this.label5);
+            this.panel4.Location = new System.Drawing.Point(906, 3);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(978, 671);
+            this.panel4.TabIndex = 5;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.Bisque;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.textBox1.ForeColor = System.Drawing.Color.Chocolate;
+            this.textBox1.Location = new System.Drawing.Point(427, 568);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(403, 38);
+            this.textBox1.TabIndex = 30;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label1.ForeColor = System.Drawing.Color.Chocolate;
+            this.label1.Location = new System.Drawing.Point(147, 574);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(77, 32);
+            this.label1.TabIndex = 29;
+            this.label1.Text = "Shift";
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.Bisque;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.textBox2.ForeColor = System.Drawing.Color.Chocolate;
+            this.textBox2.Location = new System.Drawing.Point(427, 439);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(403, 38);
+            this.textBox2.TabIndex = 28;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Bisque;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label2.ForeColor = System.Drawing.Color.Chocolate;
+            this.label2.Location = new System.Drawing.Point(147, 445);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(125, 32);
+            this.label2.TabIndex = 27;
+            this.label2.Text = "Position";
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.Bisque;
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.textBox3.ForeColor = System.Drawing.Color.Chocolate;
+            this.textBox3.Location = new System.Drawing.Point(427, 308);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.PasswordChar = '*';
+            this.textBox3.ReadOnly = true;
+            this.textBox3.Size = new System.Drawing.Size(403, 38);
+            this.textBox3.TabIndex = 26;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Bisque;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label3.ForeColor = System.Drawing.Color.Chocolate;
+            this.label3.Location = new System.Drawing.Point(147, 314);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(102, 32);
+            this.label3.TabIndex = 25;
+            this.label3.Text = "Phone";
+            // 
+            // textBox4
+            // 
+            this.textBox4.BackColor = System.Drawing.Color.Bisque;
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.textBox4.ForeColor = System.Drawing.Color.Chocolate;
+            this.textBox4.Location = new System.Drawing.Point(427, 197);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
+            this.textBox4.Size = new System.Drawing.Size(403, 38);
+            this.textBox4.TabIndex = 24;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Bisque;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label4.ForeColor = System.Drawing.Color.Chocolate;
+            this.label4.Location = new System.Drawing.Point(147, 203);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(101, 32);
+            this.label4.TabIndex = 23;
+            this.label4.Text = "Name ";
+            // 
+            // textBox5
+            // 
+            this.textBox5.BackColor = System.Drawing.Color.Bisque;
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.textBox5.ForeColor = System.Drawing.Color.Chocolate;
+            this.textBox5.Location = new System.Drawing.Point(427, 71);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
+            this.textBox5.Size = new System.Drawing.Size(403, 38);
+            this.textBox5.TabIndex = 22;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Bisque;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label5.ForeColor = System.Drawing.Color.Chocolate;
+            this.label5.Location = new System.Drawing.Point(147, 77);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(115, 32);
+            this.label5.TabIndex = 21;
+            this.label5.Text = "ID Staff";
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.PeachPuff;
+            this.panel8.Controls.Add(this.button9);
+            this.panel8.Controls.Add(this.button10);
+            this.panel8.Controls.Add(this.button11);
+            this.panel8.Controls.Add(this.button12);
+            this.panel8.Location = new System.Drawing.Point(906, 680);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(978, 181);
+            this.panel8.TabIndex = 4;
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(737, 6);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(225, 83);
+            this.button9.TabIndex = 3;
+            this.button9.Text = "Search";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(496, 6);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(225, 83);
+            this.button10.TabIndex = 2;
+            this.button10.Text = "Delete";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(252, 6);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(225, 83);
+            this.button11.TabIndex = 1;
+            this.button11.Text = "Update";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(9, 6);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(225, 83);
+            this.button12.TabIndex = 0;
+            this.button12.Text = "Add";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.dataGridView2);
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel9.Location = new System.Drawing.Point(3, 3);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(898, 858);
+            this.panel9.TabIndex = 3;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.PeachPuff;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersWidth = 51;
+            this.dataGridView2.RowTemplate.Height = 24;
+            this.dataGridView2.Size = new System.Drawing.Size(889, 851);
+            this.dataGridView2.TabIndex = 0;
+            // 
+=======
+>>>>>>> parent of 9a2c6d7 (trong)
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.panel3);
@@ -254,6 +1198,189 @@
             this.tabPage1.Text = "Tài Khoản";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.PeachPuff;
+            this.panel3.Controls.Add(this.txbTypeAccount);
+            this.panel3.Controls.Add(this.label10);
+            this.panel3.Controls.Add(this.txbDisplayName);
+            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.txbPass);
+            this.panel3.Controls.Add(this.label6);
+            this.panel3.Controls.Add(this.txbUserName);
+            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.txbIdAccount);
+            this.panel3.Controls.Add(this.label8);
+            this.panel3.Location = new System.Drawing.Point(904, 3);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(978, 670);
+            this.panel3.TabIndex = 2;
+            // 
+            // txbTypeAccount
+            // 
+            this.txbTypeAccount.BackColor = System.Drawing.Color.Bisque;
+            this.txbTypeAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txbTypeAccount.ForeColor = System.Drawing.Color.Chocolate;
+            this.txbTypeAccount.Location = new System.Drawing.Point(421, 560);
+            this.txbTypeAccount.Name = "txbTypeAccount";
+            this.txbTypeAccount.Size = new System.Drawing.Size(403, 38);
+            this.txbTypeAccount.TabIndex = 30;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label10.ForeColor = System.Drawing.Color.Chocolate;
+            this.label10.Location = new System.Drawing.Point(141, 566);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(199, 32);
+            this.label10.TabIndex = 29;
+            this.label10.Text = "Account Type";
+            // 
+            // txbDisplayName
+            // 
+            this.txbDisplayName.BackColor = System.Drawing.Color.Bisque;
+            this.txbDisplayName.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txbDisplayName.ForeColor = System.Drawing.Color.Chocolate;
+            this.txbDisplayName.Location = new System.Drawing.Point(421, 431);
+            this.txbDisplayName.Name = "txbDisplayName";
+            this.txbDisplayName.Size = new System.Drawing.Size(403, 38);
+            this.txbDisplayName.TabIndex = 28;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Bisque;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label9.ForeColor = System.Drawing.Color.Chocolate;
+            this.label9.Location = new System.Drawing.Point(141, 437);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(202, 32);
+            this.label9.TabIndex = 27;
+            this.label9.Text = "Display Name";
+            // 
+            // txbPass
+            // 
+            this.txbPass.BackColor = System.Drawing.Color.Bisque;
+            this.txbPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txbPass.ForeColor = System.Drawing.Color.Chocolate;
+            this.txbPass.Location = new System.Drawing.Point(421, 300);
+            this.txbPass.Name = "txbPass";
+            this.txbPass.PasswordChar = '*';
+            this.txbPass.ReadOnly = true;
+            this.txbPass.Size = new System.Drawing.Size(403, 38);
+            this.txbPass.TabIndex = 26;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Bisque;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label6.ForeColor = System.Drawing.Color.Chocolate;
+            this.label6.Location = new System.Drawing.Point(141, 306);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(146, 32);
+            this.label6.TabIndex = 25;
+            this.label6.Text = "Password";
+            // 
+            // txbUserName
+            // 
+            this.txbUserName.BackColor = System.Drawing.Color.Bisque;
+            this.txbUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txbUserName.ForeColor = System.Drawing.Color.Chocolate;
+            this.txbUserName.Location = new System.Drawing.Point(421, 189);
+            this.txbUserName.Name = "txbUserName";
+            this.txbUserName.ReadOnly = true;
+            this.txbUserName.Size = new System.Drawing.Size(403, 38);
+            this.txbUserName.TabIndex = 24;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Bisque;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label7.ForeColor = System.Drawing.Color.Chocolate;
+            this.label7.Location = new System.Drawing.Point(141, 195);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(156, 32);
+            this.label7.TabIndex = 23;
+            this.label7.Text = "UserName";
+            // 
+            // txbIdAccount
+            // 
+            this.txbIdAccount.BackColor = System.Drawing.Color.Bisque;
+            this.txbIdAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txbIdAccount.ForeColor = System.Drawing.Color.Chocolate;
+            this.txbIdAccount.Location = new System.Drawing.Point(421, 63);
+            this.txbIdAccount.Name = "txbIdAccount";
+            this.txbIdAccount.ReadOnly = true;
+            this.txbIdAccount.Size = new System.Drawing.Size(403, 38);
+            this.txbIdAccount.TabIndex = 22;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Bisque;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label8.ForeColor = System.Drawing.Color.Chocolate;
+            this.label8.Location = new System.Drawing.Point(141, 69);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(161, 32);
+            this.label8.TabIndex = 21;
+            this.label8.Text = "ID Account";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.PeachPuff;
+            this.panel2.Controls.Add(this.button4);
+            this.panel2.Controls.Add(this.button3);
+            this.panel2.Controls.Add(this.button2);
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Location = new System.Drawing.Point(904, 679);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(978, 180);
+            this.panel2.TabIndex = 1;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(742, 6);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(225, 83);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "Search";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(501, 6);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(225, 83);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "Delete";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(257, 6);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(225, 83);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Update";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(14, 6);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(225, 83);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Add";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+=======
+>>>>>>> parent of 9a2c6d7 (trong)
             // panel1
             // 
             this.panel1.Controls.Add(this.dataGridView1);
@@ -267,6 +1394,10 @@
             // 
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
+<<<<<<< HEAD
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.PeachPuff;
+=======
+>>>>>>> parent of 9a2c6d7 (trong)
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(3, 3);
             this.dataGridView1.Name = "dataGridView1";
@@ -275,6 +1406,8 @@
             this.dataGridView1.Size = new System.Drawing.Size(889, 851);
             this.dataGridView1.TabIndex = 0;
             // 
+<<<<<<< HEAD
+=======
             // panel2
             // 
             this.panel2.Controls.Add(this.button4);
@@ -454,6 +1587,7 @@
             this.txbTypeAccount.Size = new System.Drawing.Size(403, 38);
             this.txbTypeAccount.TabIndex = 30;
             // 
+>>>>>>> parent of 9a2c6d7 (trong)
             // tabAccount
             // 
             this.tabAccount.Controls.Add(this.tabPage1);
@@ -469,6 +1603,8 @@
             this.tabAccount.SelectedIndex = 0;
             this.tabAccount.Size = new System.Drawing.Size(1896, 906);
             this.tabAccount.TabIndex = 1;
+<<<<<<< HEAD
+=======
             this.tabAccount.SelectedIndexChanged += new System.EventHandler(this.tabAccount_SelectedIndexChanged);
             // 
             // panel5
@@ -1465,6 +2601,7 @@
             this.dataGridView6.RowTemplate.Height = 24;
             this.dataGridView6.Size = new System.Drawing.Size(889, 864);
             this.dataGridView6.TabIndex = 0;
+>>>>>>> parent of 9a2c6d7 (trong)
             // 
             // fManager
             // 
@@ -1478,6 +2615,26 @@
             this.Text = "fManager";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.tabPage6.ResumeLayout(false);
+<<<<<<< HEAD
+            this.panel16.ResumeLayout(false);
+            this.panel16.PerformLayout();
+            this.panel17.ResumeLayout(false);
+            this.panel18.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
+            this.tabPage5.ResumeLayout(false);
+            this.panel13.ResumeLayout(false);
+            this.panel13.PerformLayout();
+            this.panel14.ResumeLayout(false);
+            this.panel15.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
+            this.tabPage4.ResumeLayout(false);
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            this.panel12.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+=======
             this.tabPage5.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
@@ -1489,16 +2646,30 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.tabAccount.ResumeLayout(false);
+>>>>>>> parent of 9a2c6d7 (trong)
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+<<<<<<< HEAD
+            this.tabPage2.ResumeLayout(false);
+=======
+>>>>>>> parent of 9a2c6d7 (trong)
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+<<<<<<< HEAD
+            this.tabPage1.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.tabAccount.ResumeLayout(false);
+=======
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
             this.panel11.ResumeLayout(false);
@@ -1514,6 +2685,7 @@
             this.panel17.ResumeLayout(false);
             this.panel18.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
+>>>>>>> parent of 9a2c6d7 (trong)
             this.ResumeLayout(false);
 
         }
@@ -1546,6 +2718,17 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TabControl tabAccount;
         private System.Windows.Forms.Panel panel5;
+<<<<<<< HEAD
+        private System.Windows.Forms.TextBox txbNameCategory;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox txbIDCategory;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Button btSearchCategory;
+        private System.Windows.Forms.Button btDeleteCategory;
+        private System.Windows.Forms.Button btUpdateCategory;
+        private System.Windows.Forms.Button btAddCategory;
+=======
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox textBox7;
@@ -1561,6 +2744,7 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
+>>>>>>> parent of 9a2c6d7 (trong)
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.DataGridView dataGridView3;
         private System.Windows.Forms.Panel panel4;
@@ -1582,6 +2766,49 @@
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.Panel panel16;
+<<<<<<< HEAD
+        private System.Windows.Forms.TextBox txbNameArea;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.TextBox txbIdArea;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Panel panel17;
+        private System.Windows.Forms.Button btSearchArea;
+        private System.Windows.Forms.Button btDeleteArea;
+        private System.Windows.Forms.Button btUpdateArea;
+        private System.Windows.Forms.Button btAddArea;
+        private System.Windows.Forms.Panel panel18;
+        private System.Windows.Forms.DataGridView dataGridView6;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.TextBox txbStatus;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.TextBox txbArea;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.TextBox txbNameTable;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.TextBox txbIdTable;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Panel panel14;
+        private System.Windows.Forms.Button btSearchTable;
+        private System.Windows.Forms.Button btDeleteTable;
+        private System.Windows.Forms.Button btUpdateTable;
+        private System.Windows.Forms.Button btAddTable;
+        private System.Windows.Forms.Panel panel15;
+        private System.Windows.Forms.DataGridView dataGridView5;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.TextBox txbPrice;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TextBox txCategory;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox txbNameFood;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.TextBox txbIDFood;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Button btSearchFood;
+        private System.Windows.Forms.Button btDeleteFod;
+        private System.Windows.Forms.Button btUpdateFood;
+        private System.Windows.Forms.Button btAddFood;
+=======
         private System.Windows.Forms.TextBox textBox21;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.TextBox textBox22;
@@ -1633,6 +2860,7 @@
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button16;
+>>>>>>> parent of 9a2c6d7 (trong)
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.DataGridView dataGridView4;
     }
