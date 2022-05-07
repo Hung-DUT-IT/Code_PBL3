@@ -198,6 +198,7 @@
             this.pnl_Form.Name = "pnl_Form";
             this.pnl_Form.Size = new System.Drawing.Size(1914, 953);
             this.pnl_Form.TabIndex = 3;
+            this.pnl_Form.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_Form_Paint);
             // 
             // pictureBox2
             // 

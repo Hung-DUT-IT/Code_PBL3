@@ -48,3 +48,4 @@ C:\Users\trong\source\repos\HungCODER1\Code_PBL3\obj\Debug\Code_PBL3.exe
 C:\Users\trong\source\repos\HungCODER1\Code_PBL3\obj\Debug\Code_PBL3.pdb
 =======
 >>>>>>> parent of 9a2c6d7 (trong)
+C:\Users\huuhu\source\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.fManagers.resources

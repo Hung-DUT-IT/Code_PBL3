@@ -47,5 +47,35 @@ namespace Code_PBL3.DAO
             }
             return null;
         }
+        public List<Account> LoadAccount()
+        {
+            List<Account> accounts = new List<Account>();
+            string query = "select * from Account";
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+            foreach (DataRow item in data.Rows)
+            {
+                Account account = new Account(item);
+                accounts.Add(account);
+            }
+            return accounts;
+        }
+        public bool InsertAccount(string userName, string displayName, int type,string pass)
+        {
+            string query = string.Format("insert into Account values ('{0}','{1}','{2}','{3}',{4})",1, userName, pass,  displayName, type);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
+        public bool UpdateAccount(string userName, int type)
+        {
+            string query = string.Format("Update Account set Type = {1} where UserName = '{0}'", userName, type);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
+        public bool DeleteAccount(string userName)
+        {
+            string query = string.Format("delete Account  where UserName = '{0}' ", userName);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
     }
 }

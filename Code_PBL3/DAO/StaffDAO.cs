@@ -31,5 +31,30 @@ namespace Code_PBL3.DAO
             }
             return null;
         }
+        public List<Staff> LoadStaff()
+        {
+            List<Staff> staff = new List<Staff>();
+            string query = "select * from Staff ";
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+            foreach (DataRow item in data.Rows)
+            {
+                Staff staff1 = new Staff(item);
+                staff.Add(staff1);
+            }
+            return staff;
+        }
+        public int GetMaxIDStaff()
+        {
+            try
+            {
+                return (int)DataProvider.Instance.ExecuteSaclar("select Max(IdStaff) from Staff");
+            }
+            catch
+            {
+                return 1;
+            }   
+
+        }
     }
+
 }
