@@ -44,6 +44,35 @@ namespace Code_PBL3.DAO
             }
             return category;
         }
-
+        public Category GetCategoryByName(string name)
+        {
+            Category cate = null;
+            string query = String.Format("select * from FoodCategory where Name = '{0}'", name);
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+            foreach (DataRow item in data.Rows)
+            {
+                cate = new Category(item);
+                return cate;
+            }
+            return cate;
+        }
+        public bool AddCategory(string name)
+        {
+            string query = String.Format("insert into FoodCategory values ('{0}')" , name);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
+        public bool UpdateCategory(int id,string name)
+        {
+            string query = String.Format("update FoodCategory set Name = '{0}' where IdCtgr = {1} " ,name, id);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
+        public bool DeleteCategory(int id)
+        {
+            string query = String.Format("delete  FoodCategory where IdCtgr = {0}", id );
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
     }
 }

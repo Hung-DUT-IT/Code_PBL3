@@ -56,5 +56,24 @@ namespace Code_PBL3.DAO
             }
             return list;
         }
+        public bool AddFood(string name, int idcategory, int price)
+        {
+            string query = String.Format("insert into Food values ({0},'{1}',{2})", idcategory, name, price);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
+        public bool UpdateFood(int idfood,int idcate, string name, int price)
+        {
+
+            string query = String.Format("update Food set Name = '{0}', IdFoodCategory = {1} , Price = {2}  where IdFood = {3} ", name, idcate, price, idfood);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
+        public bool DeleteFood(int id)
+        {
+            string query = String.Format("delete Food where IdFood = {0}", id);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
     }
 }

@@ -55,6 +55,36 @@ namespace Code_PBL3.DAO
             }   
 
         }
+        public bool UpdateStafff(int  idStaff,string userName, string Positon, string Shift)
+        {
+            string query = string.Format("Update Staff set Position ='{0}',Name='{1}',Shifts='{2}' where idStaff ={3} ",Positon,userName,Shift,idStaff);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
+        public bool DeleteStaff(int idstaff)
+        {
+            string query = string.Format("delete Staff  where idStaff = {0} ", idstaff);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
+        public bool InsertStaff(string name ,string Phone , string Position,string Shift)
+        {
+            string query = string.Format("insert into Staff values ('{0}','{1}','{2}','{3}')", Position, name, Phone, Shift);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
+        public List<Staff> SearchStaffByName(string name)
+        {
+            List<Staff> list = new List<Staff>();
+            string query = string.Format("select * from Staff where dbo.GetUnsignString(Name) like '%'+ dbo.GetUnsignString('{0}') + '%'", name);
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+            foreach (DataRow item in data.Rows)
+            {
+                Staff staff = new Staff(item);
+                list.Add(staff);
+            }
+            return list;
+        }
     }
 
 }

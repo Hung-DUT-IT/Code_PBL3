@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Code_PBL3
 {
-    public partial class fInformation : Form
+    public partial class fStatic : Form
     {
-        public fInformation()
+        public fStatic()
         {
             InitializeComponent();
+        }
+
+        private void btnFirstPage_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnNextPage_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

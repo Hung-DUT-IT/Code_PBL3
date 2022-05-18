@@ -18,7 +18,7 @@ namespace Code_PBL3.DAO
 
         private DataProvider() { }
 
-        private string connectionSTR = @"Data Source=.\sqlexpress;Initial Catalog=DataBase_PBL3;Integrated Security=True";
+        private string connectionSTR = @"Data Source=HUNGIT\SQLEXPRESS;Initial Catalog=DataBase_PBL3;Integrated Security=True";
 
 
         public DataTable ExecuteQuery(string query, object[] parameter = null)

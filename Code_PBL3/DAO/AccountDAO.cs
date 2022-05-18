@@ -77,5 +77,17 @@ namespace Code_PBL3.DAO
             int result = DataProvider.Instance.ExecuteNonQuery(query);
             return result > 0;
         }
+        public List<Account> SearchAccountByUserName(string userName)
+        {
+            List<Account> list = new List<Account>();
+            string query = string.Format("select * from Account where dbo.GetUnsignString(UserName) like '%'+ dbo.GetUnsignString('{0}') + '%'", userName);
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+            foreach (DataRow item in data.Rows)
+            {
+                Account Acc = new Account(item);
+                list.Add(Acc);
+            }
+            return list;
+        }
     }
 }

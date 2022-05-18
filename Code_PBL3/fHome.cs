@@ -15,14 +15,14 @@ namespace Code_PBL3
     public partial class fHome : Form
     {
         private Form currentFormChild;
-        private int idaAcc;
+        private int idAcc;
 
         public int IdAcc
         {
-            get { return idaAcc; }
+            get { return idAcc; }
             set
             {
-                idaAcc = value;
+                idAcc = value;
             }
         }
         public fHome(int id)
@@ -76,12 +76,11 @@ namespace Code_PBL3
 
         private void btManager_Click(object sender, EventArgs e)
         {
-            OpenFormChild(new fManagers());
+            OpenFormChild(new fManagers(this.IdAcc));
         }
-
         private void btStatistic_Click(object sender, EventArgs e)
         {
-
+            OpenFormChild(new fStatic());
         }
 
         private void btExit_Click(object sender, EventArgs e)
