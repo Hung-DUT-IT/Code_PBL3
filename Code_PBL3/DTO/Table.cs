@@ -33,12 +33,19 @@ namespace Code_PBL3.DTO
             get { return status; }
             set { status = value; }
         }
-        public Table(int id, string name, int are, string status)
+        private int idDeleted;
+        public int IdDeleted
+        {
+            get { return idDeleted; }
+            set { idDeleted = value; }
+        }
+        public Table(int id, string name, int are, string status, int idDeleted)
         {
             this.IdTable = id;
             this.NameTable = name;
             this.IdArea = are;
             this.Status = status;
+            this.IdDeleted = idDeleted;
         }
         public Table(DataRow row)
         {
@@ -46,6 +53,7 @@ namespace Code_PBL3.DTO
             this.NameTable = row["Name"].ToString();
             this.IdArea = (int)row["IdArea"];
             this.Status = row["Status"].ToString();
+            this.IdDeleted = (int)row["Isdelete"];
         }
     }
 }

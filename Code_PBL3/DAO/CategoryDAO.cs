@@ -68,10 +68,22 @@ namespace Code_PBL3.DAO
             int result = DataProvider.Instance.ExecuteNonQuery(query);
             return result > 0;
         }
+       
+        public List<Category> SearchCategoryByName(string Name)
+        {
+            List<Category> list = new List<Category>();
+            string query = string.Format("select * from FoodCategory where dbo.GetUnsignString(Name) like '%'+ dbo.GetUnsignString('{0}') + '%'", Name);
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+            foreach (DataRow item in data.Rows)
+            {
+                Category category = new Category(item);
+                list.Add(category);
+            }
+            return list;
+        }
         public bool DeleteCategory(int id)
         {
-            string query = String.Format("delete  FoodCategory where IdCtgr = {0}", id );
-            int result = DataProvider.Instance.ExecuteNonQuery(query);
+           int result = DataProvider.Instance.ExecuteNonQuery("exec USP_DeleteFoodByCategory @idCategory", new object[] { id });
             return result > 0;
         }
     }

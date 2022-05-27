@@ -56,7 +56,11 @@ namespace Code_PBL3.DAO
 
         public DataTable GetListBillByDate(DateTime checkIn, DateTime checkOut)
         {
-            return DataProvider.Instance.ExecuteQuery("exec USP_GetListBillByDate @checkIn , @checkOut , ", new object[] { checkIn, checkOut });
+            return DataProvider.Instance.ExecuteQuery("exec USP_GetListBillByDate @checkfrom , @checkto  ", new object[] { checkIn, checkOut });
+        }
+        public DataTable GetListBillByDateAndPage(DateTime checkIn, DateTime checkOut,int Page)
+        {
+            return DataProvider.Instance.ExecuteQuery("exec USP_GetListBillByDateAndPage @checkfrom , @checkto , @page ", new object[] { checkIn, checkOut, Page });
         }
         public int GetMaxBill()
         {
@@ -76,5 +80,10 @@ namespace Code_PBL3.DAO
             int ressult = DataProvider.Instance.ExecuteNonQuery(query, new object[] {idbill, idcus});
             return ressult > 0;
         }
+        public int GetNumBillByDate(DateTime checkIn, DateTime checkOut)
+        {
+            return (int)DataProvider.Instance.ExecuteSaclar("exec USP_GetNumBillByDate @checkIn , @checkOut ", new object[] { checkIn, checkOut });
+        }
+
     }
 }

@@ -46,6 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BUS\AreaBUS.cs" />
+    <Compile Include="BUS\AccountBUS.cs" />
+    <Compile Include="BUS\BillBUS.cs" />
+    <Compile Include="BUS\BillInforBUS.cs" />
+    <Compile Include="BUS\CategoryBUS.cs" />
+    <Compile Include="BUS\CustomerBUS.cs" />
+    <Compile Include="BUS\FoodBUS.cs" />
+    <Compile Include="BUS\MenuBillBUS.cs" />
+    <Compile Include="BUS\StaffBUS.cs" />
+    <Compile Include="BUS\TableBUS.cs" />
     <Compile Include="DAO\AccountDAO.cs" />
     <Compile Include="DAO\AreaDAO.cs" />
     <Compile Include="DAO\BillDAO.cs" />
@@ -67,69 +77,69 @@
     <Compile Include="DTO\MenuBill.cs" />
     <Compile Include="DTO\Staff.cs" />
     <Compile Include="DTO\Table.cs" />
-    <Compile Include="fHome.cs">
+    <Compile Include="View\fHome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fHome.Designer.cs">
+    <Compile Include="View\fHome.Designer.cs">
       <DependentUpon>fHome.cs</DependentUpon>
     </Compile>
-    <Compile Include="fLogin.cs">
+    <Compile Include="View\fLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fLogin.Designer.cs">
+    <Compile Include="View\fLogin.Designer.cs">
       <DependentUpon>fLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="fManagers.cs">
+    <Compile Include="View\fManagers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fManagers.Designer.cs">
+    <Compile Include="View\fManagers.Designer.cs">
       <DependentUpon>fManagers.cs</DependentUpon>
     </Compile>
-    <Compile Include="fSale.cs">
+    <Compile Include="View\fSale.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fSale.Designer.cs">
+    <Compile Include="View\fSale.Designer.cs">
       <DependentUpon>fSale.cs</DependentUpon>
     </Compile>
-    <Compile Include="fSetting.cs">
+    <Compile Include="View\fSetting.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fSetting.Designer.cs">
+    <Compile Include="View\fSetting.Designer.cs">
       <DependentUpon>fSetting.cs</DependentUpon>
     </Compile>
-    <Compile Include="fStatic.cs">
+    <Compile Include="View\fStatic.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fStatic.Designer.cs">
+    <Compile Include="View\fStatic.Designer.cs">
       <DependentUpon>fStatic.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="fShowBill.cs">
+    <Compile Include="View\fShowBill.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fShowBill.Designer.cs">
+    <Compile Include="View\fShowBill.Designer.cs">
       <DependentUpon>fShowBill.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="fHome.resx">
+    <EmbeddedResource Include="View\fHome.resx">
       <DependentUpon>fHome.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fLogin.resx">
+    <EmbeddedResource Include="View\fLogin.resx">
       <DependentUpon>fLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fManagers.resx">
+    <EmbeddedResource Include="View\fManagers.resx">
       <DependentUpon>fManagers.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fSale.resx">
+    <EmbeddedResource Include="View\fSale.resx">
       <DependentUpon>fSale.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fSetting.resx">
+    <EmbeddedResource Include="View\fSetting.resx">
       <DependentUpon>fSetting.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fShowBill.resx">
+    <EmbeddedResource Include="View\fShowBill.resx">
       <DependentUpon>fShowBill.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fStatic.resx">
+    <EmbeddedResource Include="View\fStatic.resx">
       <DependentUpon>fStatic.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

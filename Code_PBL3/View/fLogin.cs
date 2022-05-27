@@ -1,4 +1,5 @@
-﻿using Code_PBL3.DAO;
+﻿using Code_PBL3.BUS;
+using Code_PBL3.DAO;
 using Code_PBL3.DTO;
 using System;
 using System.Collections.Generic;
@@ -18,12 +19,6 @@ namespace Code_PBL3
         {
             InitializeComponent();
         }
-        #region Methods
-        bool Login(string username, string password)
-        {
-            return AccountDAO.Instance.Login(username, password);
-        }
-        #endregion
         #region Events
         private void btExit_Click(object sender, EventArgs e)
         {
@@ -33,7 +28,7 @@ namespace Code_PBL3
         {
             string username = txbUserName.Text;
             string password = txbPassWord.Text;
-            if (Login(username, password))
+            if (AccountBUS.Instance.Login(username, password))
             {
                 Account loginAccount = AccountDAO.Instance.GetAccountByUserName(username);
                 fHome f = new fHome(loginAccount.IdAccount);

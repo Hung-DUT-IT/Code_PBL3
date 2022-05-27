@@ -72,8 +72,20 @@ namespace Code_PBL3.DAO
         public bool DeleteFood(int id)
         {
             string query = String.Format("delete Food where IdFood = {0}", id);
-            int result = DataProvider.Instance.ExecuteNonQuery(query);
+              int result = DataProvider.Instance.ExecuteNonQuery(query);
             return result > 0;
+        }
+        public List<Food> SearchAccountByName(string Name)
+        {
+            List<Food> list = new List<Food>();
+            string query = string.Format("select * from Food where dbo.GetUnsignString(Name) like '%'+ dbo.GetUnsignString('{0}') + '%'", Name);
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+            foreach (DataRow item in data.Rows)
+            {
+                Food food = new Food(item);
+                list.Add(food);
+            }
+            return list;
         }
     }
 }

@@ -67,3 +67,20 @@ C:\Users\huuhu\OneDrive - The University of Technology\Code_PBL3\Code_PBL3\obj\D
 C:\Users\huuhu\OneDrive - The University of Technology\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.exe
 C:\Users\huuhu\OneDrive - The University of Technology\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.pdb
 C:\Users\huuhu\OneDrive - The University of Technology\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.fStatic.resources
+C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\bin\Debug\Code_PBL3.exe.config
+C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\bin\Debug\Code_PBL3.exe
+C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\bin\Debug\Code_PBL3.pdb
+C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.csproj.AssemblyReference.cache
+C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.csproj.SuggestedBindingRedirects.cache
+C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.fHome.resources
+C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.fLogin.resources
+C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.fManagers.resources
+C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.fSale.resources
+C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.fSetting.resources
+C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.fShowBill.resources
+C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.fStatic.resources
+C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.Properties.Resources.resources
+C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.csproj.GenerateResource.cache
+C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.csproj.CoreCompileInputs.cache
+C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.exe
+C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.pdb

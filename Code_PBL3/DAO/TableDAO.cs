@@ -64,5 +64,36 @@ namespace Code_PBL3.DAO
         {
             DataProvider.Instance.ExecuteQuery("USP_SwitchTable @idTable1 , @idTable2 , @idAccount , @datecheckin ", new object[] { idtable1, idtable2, idAcc , checkIn });
         }
+        public bool AddTable(int idarea, string name, string status = "Trống", int isDelete = 0 )
+        {
+            string query = String.Format("insert into TableFood values ({0},'{1}',N'{2}',{3})", idarea, name, status, isDelete);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
+        public bool UpdateTable(int idtable, int idarea, string name, string status, int isDelete)
+        {
+
+            string query = String.Format("update TableFood set IdArea = {0}, Name = '{1}' ,Status = N'{2}', Isdelete = {3}  where IdTable = {4} ", idarea, name, status, isDelete, idtable);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
+        public bool DeleteTable(int idtable )
+        {
+            string query = String.Format("update TableFood set Isdelete = 1 where IdTable = {0} ", idtable);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
+        public List<Table> SearchTableByName(string name)
+        {
+            List<Table> list = new List<Table>();
+            string query = string.Format("select * from TableFood where dbo.GetUnsignString(Name) like  '%' +  dbo.GetUnsignString('{0}') +'%' " , name);
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+            foreach (DataRow item in data.Rows)
+            {
+                Table table = new Table(item);
+                list.Add(table);
+            }
+            return list;
+        }
     }
 }

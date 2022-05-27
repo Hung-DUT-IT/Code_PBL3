@@ -50,22 +50,25 @@ namespace Code_PBL3
             List<Table> tablelist = TableDAO.Instance.LoadTableListByArea(nameArea);
             foreach (Table item in tablelist)
             {
-                Button btn = new Button() { Width = (int)TableDAO.TableWidth, Height = (int)TableDAO.TableHeight };
-                btn.Text = item.NameTable + Environment.NewLine + item.Status;
-                btn.Click += Btn_ClickTable;
-                btn.Tag = item;
-                btn.ForeColor = Color.Chocolate;
-                btn.Font = new Font("Microsoft Sans Serif",14.25f, FontStyle.Bold);
-                switch (item.Status)
+                if(item.IdDeleted == 0)
                 {
-                    case "Trống":
-                        btn.BackColor = Color.Aqua;
-                        break;
-                    default:
-                        btn.BackColor = Color.Beige;
-                        break;
+                    Button btn = new Button() { Width = (int)TableDAO.TableWidth, Height = (int)TableDAO.TableHeight };
+                    btn.Text = item.NameTable + Environment.NewLine + item.Status;
+                    btn.Click += Btn_ClickTable;
+                    btn.Tag = item;
+                    btn.ForeColor = Color.Chocolate;
+                    btn.Font = new Font("Microsoft Sans Serif", 14.25f, FontStyle.Bold);
+                    switch (item.Status)
+                    {
+                        case "Trống":
+                            btn.BackColor = Color.LightBlue;
+                            break;
+                        default:
+                            btn.BackColor = Color.LightPink;
+                            break;
+                    }
+                    flpTable.Controls.Add(btn);
                 }
-                flpTable.Controls.Add(btn);
             }
         }
         void LoadCategory()
@@ -77,8 +80,9 @@ namespace Code_PBL3
                 Button btn = new Button() { Width = (int)CategoryDAO.CategoryWidth, Height = (int)CategoryDAO.CategoryHeight };
                 btn.Text = item.NameCategory ;
                 btn.Click += Btn_ClickCategory;
-                //btn.fo
-                btn.BackColor = Color.Chocolate ;
+                btn.BackColor = Color.Sienna ;
+                btn.ForeColor= Color.White ;          
+                btn.Font = new System.Drawing.Font("Times New Roman", 13.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
                 btn.Tag = item;               
                 flpCategory.Controls.Add(btn);
             }

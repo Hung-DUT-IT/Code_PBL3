@@ -66,7 +66,10 @@ namespace Code_PBL3
         }    
         private void btHome_Click(object sender, EventArgs e)
         {
-
+            if (currentFormChild != null)
+            {
+                currentFormChild.Close();
+            }
         }
 
         private void btSale_Click(object sender, EventArgs e)

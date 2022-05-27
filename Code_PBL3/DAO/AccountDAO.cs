@@ -71,9 +71,9 @@ namespace Code_PBL3.DAO
             int result = DataProvider.Instance.ExecuteNonQuery(query);
             return result > 0;
         }
-        public bool DeleteAccount(string userName)
+        public bool DeleteAccount(int idac)
         {
-            string query = string.Format("delete Account  where UserName = '{0}' ", userName);
+            string query = string.Format("delete Account  where IdAccount = {0} ", idac);
             int result = DataProvider.Instance.ExecuteNonQuery(query);
             return result > 0;
         }
