@@ -71,7 +71,7 @@
             this.btSetting.BackColor = System.Drawing.Color.Bisque;
             this.btSetting.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btSetting.ForeColor = System.Drawing.Color.Chocolate;
-            this.btSetting.Location = new System.Drawing.Point(956, 10);
+            this.btSetting.Location = new System.Drawing.Point(955, 9);
             this.btSetting.Margin = new System.Windows.Forms.Padding(4);
             this.btSetting.Name = "btSetting";
             this.btSetting.Size = new System.Drawing.Size(239, 91);
@@ -86,7 +86,7 @@
             this.lbDisplayName.AutoSize = true;
             this.lbDisplayName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lbDisplayName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbDisplayName.Location = new System.Drawing.Point(1416, 10);
+            this.lbDisplayName.Location = new System.Drawing.Point(1455, 17);
             this.lbDisplayName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbDisplayName.Name = "lbDisplayName";
             this.lbDisplayName.Size = new System.Drawing.Size(70, 25);
@@ -99,10 +99,10 @@
             this.btExit.BackColor = System.Drawing.Color.Bisque;
             this.btExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btExit.ForeColor = System.Drawing.Color.Chocolate;
-            this.btExit.Location = new System.Drawing.Point(1421, 52);
+            this.btExit.Location = new System.Drawing.Point(1459, 51);
             this.btExit.Margin = new System.Windows.Forms.Padding(4);
             this.btExit.Name = "btExit";
-            this.btExit.Size = new System.Drawing.Size(188, 49);
+            this.btExit.Size = new System.Drawing.Size(150, 39);
             this.btExit.TabIndex = 7;
             this.btExit.Text = "Exit";
             this.btExit.UseVisualStyleBackColor = false;
@@ -113,7 +113,7 @@
             this.lbTimer.AutoSize = true;
             this.lbTimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lbTimer.ForeColor = System.Drawing.Color.Chocolate;
-            this.lbTimer.Location = new System.Drawing.Point(1203, 39);
+            this.lbTimer.Location = new System.Drawing.Point(1202, 39);
             this.lbTimer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbTimer.Name = "lbTimer";
             this.lbTimer.Size = new System.Drawing.Size(92, 31);
@@ -193,10 +193,10 @@
             this.pnl_Form.AutoScroll = true;
             this.pnl_Form.BackgroundImage = global::Code_PBL3.Properties.Resources.background_Home;
             this.pnl_Form.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnl_Form.Location = new System.Drawing.Point(3, 113);
+            this.pnl_Form.Location = new System.Drawing.Point(3, 112);
             this.pnl_Form.Margin = new System.Windows.Forms.Padding(4);
             this.pnl_Form.Name = "pnl_Form";
-            this.pnl_Form.Size = new System.Drawing.Size(1914, 953);
+            this.pnl_Form.Size = new System.Drawing.Size(1918, 943);
             this.pnl_Form.TabIndex = 3;
             this.pnl_Form.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_Form_Paint);
             // 

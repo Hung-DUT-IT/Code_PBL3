@@ -84,3 +84,4 @@ C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_P
 C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.csproj.CoreCompileInputs.cache
 C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.exe
 C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.pdb
+C:\Users\huuhu\OneDrive - The University of Technology\Tài liệu\GitHub\Code_PBL3\Code_PBL3\obj\Debug\Code_PBL3.View.fDetachedBill.resources

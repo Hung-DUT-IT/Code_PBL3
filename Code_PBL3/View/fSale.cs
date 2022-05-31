@@ -1,5 +1,6 @@
 ﻿using Code_PBL3.DAO;
 using Code_PBL3.DTO;
+using Code_PBL3.View;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -269,5 +270,11 @@ namespace Code_PBL3
             }
         }
         #endregion
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            fDetachedBill fx = new fDetachedBill();
+            fx.Show();
+        }
     }
 }

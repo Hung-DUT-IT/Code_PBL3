@@ -1,5 +1,6 @@
 ﻿using Code_PBL3.DAO;
 using Code_PBL3.DTO;
+using Code_PBL3.View;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -109,6 +110,12 @@ namespace Code_PBL3
         private void pnl_Form_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            fDetachedBill fx = new fDetachedBill();
+            fx.Show();
         }
     }
 }
